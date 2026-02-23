@@ -1,8 +1,23 @@
+# utils.py
+
 def add(a, b):
-    return a + b
+    try:
+        return float(a) + float(b)
+    except ValueError:
+        return "Error: Invalid input. Please enter numbers only."
+
 
 def subtract(a, b):
-    return a - b
+    try:
+        return float(a) - float(b)
+    except ValueError:
+        return "Error: Invalid input. Please enter numbers only."
+
 
 def multiply(a, b):
-    return a * b
+    try:
+        return float(a) * float(b)
+    except ValueError:
+        return "Error: Invalid input. Please enter numbers only."
+
+
