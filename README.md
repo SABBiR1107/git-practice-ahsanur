@@ -1,12 +1,31 @@
-# Project Title: Simple Calculator Project
+# Basic Calculator
 
 ## Author
-Your Name: Ahsanur Rahman
+Ahsanur Rahman
 
-## Project Description
-This project demonstrates basic Git workflow and Python programming.
+---
 
-Features:
-- Print name
-- Print current date
-- Basic calculator functions
+## Overview
+This project is a simple calculator built with Python to practice Git and GitHub workflows.
+
+---
+
+## Features
+- Addition
+- Subtraction
+
+---
+
+## Project Structure
+project/
+│── main.py  
+│── utils.py  
+│── README.md  
+│── project-description.md  
+
+---
+
+##How to Run
+
+```bash
+python main.py
