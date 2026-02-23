@@ -20,4 +20,8 @@ def multiply(a, b):
     except ValueError:
         return "Error: Invalid input. Please enter numbers only."
 
-
+def divide(a, b):
+    try:
+        return float(a) / float(b)
+    except ValueError:
+        return "Error: Invalid input. Please enter numbers only."
